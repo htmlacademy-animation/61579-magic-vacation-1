@@ -57,7 +57,7 @@
   align-items: flex-end;
   justify-content: space-between;
   padding-left: 6.3rem;
-  animation: 1s fade backwards ease-out;
+  animation: 1s fadeIn backwards ease-out;
 
   @media (min-width: $stop-scaling) {
     padding-left: 63px;
@@ -66,15 +66,6 @@
   @media (max-width: $tablet) and (orientation: portrait) {
     justify-content: flex-start;
     padding-left: 2.5rem;
-  }
-}
-
-
-  
-@keyframes fade {
-  from {
-    transform: translateY(.25em);
-    opacity: 0
   }
 }
 
