@@ -95,6 +95,7 @@
   max-width: 34rem;
   font-size: 1.8rem;
   line-height: 2rem;
+  animation: 1s fadeIn backwards ease-out;
 
   @media (min-width: $stop-scaling) {
     margin-top: 36px;

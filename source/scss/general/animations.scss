@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+  from {
+    transform: translateY(.25em);
+    opacity: 0
+  }
+  to {
+    transform: translateT(0);
+    opacity: 1;
+  }
+}
+
+@keyframes jumpFromRight {
+  from {
+    left: 1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
