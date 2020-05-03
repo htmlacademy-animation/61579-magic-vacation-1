@@ -241,7 +241,7 @@
     display: block;
     color: inherit;
     padding: 0 0.5em 0.5em;
-    transition: color 0.3s linear;
+    transition: color 0.35s ease;
 
     &::after {
       content: "";
@@ -252,7 +252,7 @@
       background-color: $c-light;
       display: block;
       right: 0;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.35s ease;
 
       @media (min-width: $stop-scaling) {
         left: -5px;
