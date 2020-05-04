@@ -958,7 +958,7 @@ img {
   line-height: 3rem;
   color: white;
   letter-spacing: -0.04em;
-  transition: color 0.4s ease 0.35s; }
+  transition: color 0.8s ease 0.35s; }
   .btn:focus {
     outline: none; }
   @media (min-width: 2000px) {
