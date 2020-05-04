@@ -41,7 +41,7 @@
   }
 }
 
-@mixin hover {
+@mixin hover {  
   &:hover {
     opacity: 0.8;
   }
