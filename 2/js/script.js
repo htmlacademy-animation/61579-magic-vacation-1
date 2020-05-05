@@ -10218,7 +10218,7 @@ __webpack_require__.r(__webpack_exports__);
   if (document.readyState === "complete") {
     addClassToBody();
   } else {
-    document.addEventListener("DOMContentLoaded", addClassToBody);
+    window.onload = addClassToBody;
   }
 
   function addClassToBody() {
