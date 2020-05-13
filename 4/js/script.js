@@ -10215,17 +10215,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (() => {
-  if (document.readyState === "complete") {
+  if (document.readyState === `complete`) {
     addClassToBody();
   } else {
     window.onload = addClassToBody;
   }
 
   function addClassToBody() {
-    const body = document.querySelector("body");
-    body.classList.add("page-loaded");
+    const body = document.querySelector(`body`);
+    body.classList.add(`page-loaded`);
   }
 });
+
 
 /***/ }),
 
@@ -10635,7 +10636,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- 
+
 
 // init modules
 Object(_modules_mobile_height_adjust_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
