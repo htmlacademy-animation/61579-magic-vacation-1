@@ -1,0 +1,24 @@
+@keyframes rule-appear {
+  from {
+    transform: translateX(1em);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rule-number-appear {
+  0% {
+    transform: scale(0);
+    color: $c-purple;
+  }
+  70% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+    color: white;
+  }
+}
