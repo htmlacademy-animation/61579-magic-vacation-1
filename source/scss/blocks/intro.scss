@@ -166,6 +166,7 @@
 }
 
 .intro__date {
+  padding-top: 1px;
   margin: 0 0 0 -0.5rem;
   font-family: $font-alt;
   font-weight: 400;
@@ -181,8 +182,7 @@
 }
 
 .accent-word {
-  //display: inline-block;
-  //overflow: hidden;
+
 }
 
 .accent-text .accent-word > span {
