@@ -1671,6 +1671,7 @@ img {
       font-size: 24px; } }
 
 .intro__date {
+  padding-top: 1px;
   margin: 0 0 0 -0.5rem;
   font-family: "Radical", "Arial", sans-serif;
   font-weight: 400;
