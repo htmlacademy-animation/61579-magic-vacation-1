@@ -9,6 +9,7 @@ import form from './modules/form.js';
 import social from './modules/social.js';
 import FullPageScroll from './modules/full-page-scroll';
 import documentLoadedCheck from './modules/document-loaded-check';
+import './modules/accent-typography-build';
 
 // init modules
 mobileHeight();

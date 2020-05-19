@@ -24,14 +24,16 @@
 }
 
 .intro__title {
+  padding-top: 16px;
   margin: 0;
-  max-width: 99rem;
+  max-width: 100rem;
   text-transform: uppercase;
   font-family: $font-alt;
   font-weight: 400;
   font-size: 12rem;
   line-height: 0.906;
   letter-spacing: -0.04em;
+  overflow: hidden;
 
   @media (min-width: $stop-scaling) {
     max-width: 990px;
@@ -93,9 +95,9 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
-  transform: translateY(.25em);
+  transform: translateY(1em);
   opacity: 0;
-  transition: all 0.4s ease 0.5s;
+  transition: all 0.4s ease 1.6s;
 
   .active & {
     transform: translateY(0);
@@ -149,6 +151,12 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.2;
+  opacity: 0;
+  transition: all 0.4s ease 2.3s;
+
+  .active & {
+    opacity: 1;
+  }
 
   @media (min-width: $stop-scaling) {
     margin: 0 0 16px;
@@ -164,9 +172,25 @@
   font-size: 4.8rem;
   line-height: 0.906;
   letter-spacing: -0.04em;
+  overflow: hidden;
 
   @media (min-width: $stop-scaling) {
     margin: 0 0 0 -5px;
     font-size: 48px;
   }
+}
+
+.accent-word {
+  //display: inline-block;
+  //overflow: hidden;
+}
+
+.accent-text .accent-word > span {
+  transform: translate3d(0, 2em, 0);
+  display: inline-block;
+}
+
+.accent-text--active .accent-word > span,
+.accent-text--active .accent-word > span {
+  transform: translate3d(0, 0, 0);
 }
