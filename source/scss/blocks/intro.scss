@@ -24,7 +24,6 @@
 }
 
 .intro__title {
-  padding-top: 16px;
   margin: 0;
   max-width: 100rem;
   text-transform: uppercase;
@@ -33,7 +32,6 @@
   font-size: 12rem;
   line-height: 0.906;
   letter-spacing: -0.04em;
-  overflow: hidden;
 
   @media (min-width: $stop-scaling) {
     max-width: 990px;
@@ -52,6 +50,11 @@
   @media (max-width: $mobile) and (orientation: landscape) {
     font-size: 5rem;
   }
+}
+
+.intro__title-first-word,
+.intro__title-second-word {
+
 }
 
 .intro__content {
@@ -146,7 +149,8 @@
 }
 
 .intro__label {
-  margin: 0 0 1.6rem;
+  margin: 0;
+  //margin: 0 0 1.6rem;
   max-width: 25rem;
   text-transform: uppercase;
   font-size: 2.4rem;
@@ -173,7 +177,7 @@
   font-size: 4.8rem;
   line-height: 0.906;
   letter-spacing: -0.04em;
-  overflow: hidden;
+  //overflow: hidden;
 
   @media (min-width: $stop-scaling) {
     margin: 0 0 0 -5px;
@@ -182,12 +186,16 @@
 }
 
 .accent-word {
-
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
-.accent-text .accent-word > span {
+.accent-word > span {
   transform: translate3d(0, 2em, 0);
   display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px;
 }
 
 .accent-text--active .accent-word > span,
