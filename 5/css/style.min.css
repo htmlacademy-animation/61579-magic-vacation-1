@@ -1558,7 +1558,6 @@ img {
       padding: 16vh 0 5vh; } }
 
 .intro__title {
-  padding-top: 16px;
   margin: 0;
   max-width: 100rem;
   text-transform: uppercase;
@@ -1566,8 +1565,7 @@ img {
   font-weight: 400;
   font-size: 12rem;
   line-height: 0.906;
-  letter-spacing: -0.04em;
-  overflow: hidden; }
+  letter-spacing: -0.04em; }
   @media (min-width: 2000px) {
     .intro__title {
       max-width: 990px;
@@ -1655,7 +1653,7 @@ img {
       height: 1.1rem; } }
 
 .intro__label {
-  margin: 0 0 1.6rem;
+  margin: 0;
   max-width: 25rem;
   text-transform: uppercase;
   font-size: 2.4rem;
@@ -1677,16 +1675,22 @@ img {
   font-weight: 400;
   font-size: 4.8rem;
   line-height: 0.906;
-  letter-spacing: -0.04em;
-  overflow: hidden; }
+  letter-spacing: -0.04em; }
   @media (min-width: 2000px) {
     .intro__date {
       margin: 0 0 0 -5px;
       font-size: 48px; } }
 
-.accent-text .accent-word > span {
+.accent-word {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden; }
+
+.accent-word > span {
   transform: translate3d(0, 2em, 0);
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px; }
 
 .accent-text--active .accent-word > span,
 .accent-text--active .accent-word > span {
