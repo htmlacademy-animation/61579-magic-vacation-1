@@ -84,6 +84,11 @@ setTimeout(() => {
   introDate.runAnimation();
 }, 1700);
 
+const sliderTitle = new AccentTypographyBuild(`.slider__item-title`, 600, `accent-text--active`, `transform`);
+setTimeout(() => {
+  sliderTitle.runAnimation();
+}, 100);
+
 
 function isEven(n) {
   return n % 2 === 0;
